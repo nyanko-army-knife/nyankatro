@@ -5,7 +5,7 @@
         "draconacht"
     ],
     "description": "nyaan",
-    "prefix": "nyan",
+    "prefix": "nyankatro",
     "main_file": "nyankatro.lua",
     "badge_colour": "c7638f",
     "dependencies": [
