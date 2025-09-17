@@ -4,7 +4,7 @@ SMODS.Joker {
   rarity = 2,
   blueprint_compat = false,
   atlas = 'Nyanko',
-  pos = { x = 1, y = 1 },
+  pos = { x = 0, y = 1 },
   cost = 6,
   loc_vars = function(self, info_queue, card)
     return { vars = { card.ability.extra.reduce_d } }

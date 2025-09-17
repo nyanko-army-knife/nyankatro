@@ -60,6 +60,43 @@ return {
           "scoring hand was played",
         }
       },
+      j_nyankatro_dark_cat = {
+        name = 'Dark Cat',
+        text = {
+          "{C:attention}+#1#{} hand size",
+        }
+      },
+      j_nyankatro_macho_legs_cat = {
+        name = 'Macho Legs Cat',
+        text = {
+          "{C:blue}+#1#{} hand each round",
+        }
+      },
+      j_nyankatro_bombercat = {
+        name = 'Bombercat',
+        text = {
+          "after {C:attention}first hand{} of round,",
+          "if leftmost card in hand is",
+          "Clubs or Spaces, destroy",
+          "it and earn {C:money}+#1#${}",
+        }
+      },
+      j_nyankatro_hermit_cat = {
+        name = 'Hermit Cat',
+        text = {
+          "creates a {C:purple}Hermit{} card",
+          "and deducts {C:money}#1#${}",
+          "at start of blind",
+        }
+      },
+      j_nyankatro_roe_cat = {
+        name = 'Roe Cat',
+        text = {
+          "{C:mult}x#1#{} Mult",
+          "{C:mult}-x#2#{} Mult per",
+          "round played",
+        }
+      },
     }
   }
 }

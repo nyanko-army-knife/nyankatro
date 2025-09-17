@@ -17,3 +17,5 @@ for _, file in ipairs(NFS.getDirectoryItems(mod_dir .. "jokers")) do
 		joker()
 	end
 end
+
+assert(SMODS.load_file("rarities.lua"))()

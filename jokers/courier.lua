@@ -3,7 +3,7 @@ SMODS.Joker {
 	config = { extra = { mult = 0, mult_mod = 1 } },
 	rarity = 1,
 	atlas = 'Nyanko',
-	pos = { x = 0, y = 1 },
+	pos = { x = 3, y = 0 },
 	cost = 4,
 	loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.mult, card.ability.extra.mult_mod } }
