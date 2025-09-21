@@ -14,9 +14,9 @@ SMODS.Joker {
       local eval = function() return G.GAME.current_round.hands_played == 0 and not G.RESET_JIGGLES end
       juice_card_until(card, eval, true)
     end
-    if (context.cardarea == G.hand and context.individual and not context.end_of_round) and
-        (context.other_card:is_suit('Clubs') or context.other_card:is_suit('Spades')) and
-        not context.blueprint and G.GAME.current_round.hands_played <= 0 then
+    if (context.cardarea == G.hand and context.destroy_card and not context.blueprint) and
+        (context.destroy_card:is_suit('Clubs') or context.destroy_card:is_suit('Spades')) and context.destroy_card == G.hand.cards[1] and
+        G.GAME.current_round.hands_played <= 0 then
       return {
         dollars = card.ability.extra.dollars,
         remove = true
