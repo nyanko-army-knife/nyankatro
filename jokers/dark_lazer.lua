@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'dark_lazer',
 	config = { extra = { retrigger_odds = 6 } },
 	rarity = 1,
+	nyanko_rarity = NYANKO_RARITY.SPECIAL,
 	atlas = 'Nyanko',
 	pos = { x = 2, y = 0 },
 	cost = 4,

@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'courier_cat',
 	config = { extra = { mult = 0, mult_mod = 1 } },
 	rarity = 1,
+	nyanko_rarity = NYANKO_RARITY.RARE,
 	atlas = 'Nyanko',
 	pos = { x = 3, y = 0 },
 	cost = 4,

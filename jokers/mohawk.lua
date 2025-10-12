@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'mohawk_cat',
 	config = { extra = { mult = 4 } },
 	rarity = 1,
+	nyanko_rarity = NYANKO_RARITY.BASIC,
 	atlas = 'Nyanko',
 	pos = { x = 0, y = 0 },
 	cost = 3,

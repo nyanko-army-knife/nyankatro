@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'eraser_cat',
 	config = { extra = { chips = 30 } },
 	rarity = 1,
+	nyanko_rarity = NYANKO_RARITY.BASIC,
 	atlas = 'Nyanko',
 	pos = { x = 1, y = 0 },
 	cost = 3,
