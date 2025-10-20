@@ -3,6 +3,7 @@ SMODS.Joker {
 	blueprint_compat = false,
 	rarity = 1,
 	nyanko_rarity = NYANKO_RARITY.SPECIAL,
+	pools = { nyankatro_gacha = false },
 	cost = 6,
 	atlas = 'Nyanko',
 	pos = { x = 2, y = 2 },

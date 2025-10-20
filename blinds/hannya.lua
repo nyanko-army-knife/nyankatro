@@ -1,10 +1,10 @@
 SMODS.Blind {
 	key = "hannya",
 	atlas = "NyankoBoss",
-	pos = { x = 0, y = 4 },
+	pos = { x = 0, y = 1 },
 	boss_colour = HEX("702c32"),
 	dollars = 5,
-	boss = { min = 2 },
+	boss = { min = 1 },
 	mult = 2,
 	calculate = function(self, blind, context)
 		if blind.disabled or not context.modify_hand then return end

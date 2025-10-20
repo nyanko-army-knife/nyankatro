@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = "gaia_the_creator",
 	rarity = 4,
 	nyanko_rarity = NYANKO_RARITY.LEGEND_RARE,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_legend_rare = true },
 	atlas = 'Nyanko',
 	config = { extra = { chips = 250, mult = 50, xmult = 5, money = 10 } },
 	pos = { x = 3, y = 9 },

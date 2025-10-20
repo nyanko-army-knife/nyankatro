@@ -4,6 +4,7 @@ SMODS.Joker {
 	eternal_compat = false,
 	rarity = 2,
 	nyanko_rarity = NYANKO_RARITY.SUPER_RARE,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_super_rare = true },
 	cost = 5,
 	atlas = 'Nyanko',
 	pos = { x = 0, y = 8 },

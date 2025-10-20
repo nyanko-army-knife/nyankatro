@@ -1,6 +1,7 @@
 SMODS.Joker {
 	key = 'can_can_cat',
 	config = { extra = { mult = 50, neg_mult = -10 } },
+	pools = { nyankatro_gacha = true, nyankatro_gacha_super_rare = true },
 	rarity = 2,
 	nyanko_rarity = NYANKO_RARITY.SUPER_RARE,
 	atlas = 'Nyanko',

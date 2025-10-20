@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = "jester_queen_deale",
 	rarity = 3,
 	nyanko_rarity = NYANKO_RARITY.UBER_RARE,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_uber_rare = true },
 	blueprint_compat = false,
 	atlas = 'Nyanko',
 	pos = { x = 1, y = 9 },

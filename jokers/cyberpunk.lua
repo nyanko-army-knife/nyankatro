@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'cyberpunk_cat',
 	config = { extra = { reduce_d = 1 } },
 	rarity = 2,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_super_rare = true },
 	nyanko_rarity = NYANKO_RARITY.SUPER_RARE,
 	blueprint_compat = false,
 	atlas = 'Nyanko',

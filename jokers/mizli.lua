@@ -3,6 +3,7 @@ SMODS.Joker {
 	config = { extra = { xmult_mod = 0.1 } },
 	rarity = 3,
 	nyanko_rarity = NYANKO_RARITY.UBER_RARE,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_uber_rare = true },
 	atlas = 'Nyanko',
 	pos = { x = 2, y = 1 },
 	cost = 8,

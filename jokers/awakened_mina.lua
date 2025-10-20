@@ -4,6 +4,7 @@ SMODS.Joker {
 	rarity = 1,
 	nyanko_rarity = NYANKO_RARITY.SPECIAL,
 	atlas = 'Nyanko',
+	pools = { nyankatro_gacha = false },
 	pos = { x = 1, y = 7 },
 	cost = 5,
 	loc_vars = function(self, info_queue, card)

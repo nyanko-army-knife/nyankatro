@@ -5,5 +5,11 @@ function SMODS.add_to_pool(prototype_obj, args)
 			return false
 		end
 	end
+
+	if G.GAME.challenge ~= nil and SMODS.Challenges[G.GAME.challenge].add_to_pool ~= nil then
+		if not SMODS.Challenges[G.GAME.challenge]:add_to_pool(prototype_obj, args) then
+			return false
+		end
+	end
 	return smods_add_to_pool(prototype_obj, args)
 end

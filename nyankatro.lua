@@ -1,4 +1,4 @@
-for _, k in ipairs({ "Nyanko", "NyankoTarot", "NyankoVoucher" }) do
+for _, k in ipairs({ "Nyanko", "NyankoTarot", "NyankoVoucher", "NyankoBack" }) do
 	SMODS.Atlas {
 		key = k,
 		path = k .. ".png",
@@ -18,7 +18,7 @@ SMODS.Atlas({
 
 local mod_dir = '' .. SMODS.current_mod.path
 
-for _, sub_dir in ipairs({ "hooks", "blinds", "jokers", "tarots", "vouchers", "backs", "challenges" }) do
+for _, sub_dir in ipairs({ "hooks", "objecttypes", "blinds", "jokers", "tarots", "spectrals", "vouchers", "backs", "challenges" }) do
 	for _, file in ipairs(NFS.getDirectoryItems(mod_dir .. sub_dir)) do
 		local joker, load_error = SMODS.load_file(sub_dir .. "/" .. file)
 		if load_error or joker == nil then
@@ -28,5 +28,3 @@ for _, sub_dir in ipairs({ "hooks", "blinds", "jokers", "tarots", "vouchers", "b
 		end
 	end
 end
-
-assert(SMODS.load_file("rarities.lua"))()

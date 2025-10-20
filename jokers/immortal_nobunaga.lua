@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'immortal_nobunaga',
 	rarity = 3,
 	nyanko_rarity = NYANKO_RARITY.UBER_RARE,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_uber_rare = true },
 	atlas = 'Nyanko',
 	pos = { x = 0, y = 9 },
 	cost = 8,

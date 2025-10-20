@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'stone_cat',
 	rarity = 1,
 	nyanko_rarity = NYANKO_RARITY.RARE,
+	pools = { nyankatro_gacha = false},
 	blueprint_compat = false,
 	atlas = 'Nyanko',
 	pos = { x = 0, y = 5 },

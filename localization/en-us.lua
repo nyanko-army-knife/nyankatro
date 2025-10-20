@@ -35,10 +35,87 @@ return {
 				name = "Everlord Wanwan",
 				text = {
 					"After 2 hands played, discard",
-					"all cards and set hand",
+					"upto 5 cards and set hand",
 					"limit to 10-X"
 				}
-			}
+			},
+			bl_nyankatro_daboo = {
+				name = "Daboo of the Dead",
+				text = {
+					"double target score",
+				}
+			},
+			bl_nyankatro_papuu = {
+				name = "Heavenly Herald Papuu",
+				text = {
+					"reduce total score by 30%",
+					"after each played hand"
+				}
+			},
+			bl_nyankatro_hannya = {
+				name = "Hannya",
+				text = {
+					"base chips are quartered",
+				}
+			},
+			bl_nyankatro_okame = {
+				name = "Okame",
+				text = {
+					"base mult is quartered",
+				}
+			},
+			bl_nyankatro_uril = {
+				name = "Master Uril",
+				text = {
+					"each played card must be >= 6",
+					"to score. changes after hand played."
+				}
+			},
+			bl_nyankatro_bakoo = {
+				name = "Bakoo",
+				text = {
+					"Playing {C:attention}#1#{} sets money to $0",
+				}
+			},
+			bl_nyankatro_doremi = {
+				name = "Doremi",
+				text = {
+					"Playing anything except ",
+					"{C:attention}#1#{} sets money to $0",
+				}
+			},
+			bl_nyankatro_clionel = {
+				name = "Cruel Angel Clionel",
+				text = {
+					"All face cards are debuffed.",
+				}
+			},
+			bl_nyankatro_zonel = {
+				name = "Death Angel Z-Onel",
+				text = {
+					"All non-face cards are debuffed.",
+				}
+			},
+			bl_nyankatro_kappy = {
+				name = "Kappy",
+				text = {
+					"Cards cannot retrigger",
+				}
+			},
+			bl_nyankatro_kawano = {
+				name = "Kawano",
+				text = {
+					"Deduct $3 when hand played.",
+					"can't retrigger is you're broke",
+				}
+			},
+			bl_nyankatro_yulala = {
+				name = "Mystic Mask Yulala",
+				text = {
+					"discard up to 5 cards after",
+					"playing or discarding hand.",
+				}
+			},
 		},
 		Joker = {
 			j_nyankatro_mohawk_cat = {
@@ -337,6 +414,159 @@ return {
 					"scored hand contains {C:attention}straight flush{}",
 				}
 			},
+			j_nyankatro_cyborg_cat = {
+				name = 'Cyborg Cat',
+				text = {
+					"gives {C:chips}+#1#{} chips",
+					"and {C:mult}+#2#{} mult",
+					"for every {C:money}#3#${}",
+				}
+			},
+			j_nyankatro_catasaurus = {
+				name = 'Catasaurus',
+				text = {
+					"{C:attention}Jacks{} held in hand",
+					"give {C:mult}+#1#{} mult",
+				}
+			},
+			j_nyankatro_ramen_cat = {
+				name = 'Ramen Cat',
+				text = {
+					"gives {C:mult}+#1#{} mult,",
+					"{C:mult}-#2#{} after each hand",
+				}
+			},
+			j_nyankatro_cameraman_cat = {
+				name = 'Cameraman Cat',
+				text = {
+					"gives {C:chips}+#1#{} chips,",
+					"{C:chips}-#2#{} after each hand",
+				}
+			},
+			j_nyankatro_thaumaturge_cat = {
+				name = 'Thaumaturge Cat',
+				text = {
+					"creates {C:purple}tarot card{}",
+					"at start of round",
+				}
+			},
+			j_nyankatro_catellite = {
+				name = 'Catellite',
+				text = {
+					"Adds the number of times",
+					"{C:attention}poker hand{} has been",
+					"played this run to Mult",
+				}
+			},
+			j_nyankatro_shigong_cat = {
+				name = 'Shigong Cat',
+				text = {
+					"retrigger each played",
+					"{C:attention}A, 2, and 3{}",
+				}
+			},
+			j_nyankatro_cataur = {
+				name = 'Cataur',
+				text = {
+					"gives {C:white,X:mult}x#1#{} mult",
+					"for each {C:money}#2#${}",
+				}
+			},
+			j_nyankatro_manic_mohawk_cat = {
+				name = 'Manic Mohawk Cat',
+				text = {
+					"gives {C:mult}+#1#{} mult",
+					"for each {C:attention}joker rarity{}",
+				}
+			},
+			j_nyankatro_manic_eraser_cat = {
+				name = 'Manic Eraser Cat',
+				text = {
+					"gives {C:chips}+#1#{} chips",
+					"for each {C:attention}4{} in full deck",
+					"(currently {C:chips}+#2#{})"
+				}
+			},
+			j_nyankatro_manic_dark_cat = {
+				name = 'Manic Dark Cat',
+				text = {
+					"remove all discards",
+					"at start of round",
+					"draw {C:attention}#1#{} extra cards",
+					"for each discard lost",
+				}
+			},
+			j_nyankatro_manic_macho_legs_cat = {
+				name = 'Manic Macho Legs Cat',
+				text = {
+					"gain {C:blue}+1 hand{} after",
+					"defeating blind. resets",
+					"at end of ante",
+				}
+			},
+			j_nyankatro_manic_lion_cat = {
+				name = 'Manic Lion Cat',
+				text = {
+					"gain {C:red}+1 discard{} after",
+					"defeating blind. resets",
+					"at end of ante",
+				}
+			},
+			j_nyankatro_headmistress_jeanne = {
+				name = 'Headmistress Jeanne',
+				text = {
+					"all cards give {C:white,X:mult}x#1#{}",
+					"mult when scored.",
+					"treat all cards",
+					"{C:attention}as the same suit{}",
+				}
+			},
+		},
+		Spectral = {
+			c_nyankatro_platinum = {
+				name = "Platinum",
+				text = {
+					"Creates a random",
+					"{C:attention}Uber Rare Nyanko{}",
+					"{C:inactive}(Must have room)",
+				}
+			}
+		},
+		Tarot = {
+			c_nyankatro_gacha = {
+				name = "Gacha",
+				text = {
+					"Creates a random",
+					"{C:attention}Gacha Nyanko{}",
+					"{C:inactive}(Must have room)",
+				}
+			}
+		},
+		Voucher = {
+			v_nyankatro_facing_danger = {
+				name = "Facing Danger",
+				text = {
+					"Creates up to #1#",
+					"basic cats at",
+					"start of round",
+				}
+			},
+			v_nyankatro_cybears_revenge = {
+				name = "Cybear's Revenge",
+				text = {
+					"Creates up to #1#",
+					"basic cats at",
+					"start of round",
+				}
+			}
+		}
+	},
+	misc = {
+		challenge_names = {
+			c_nyankatro_stop_gacha = "We Gotta Stop Gacha!"
+		},
+		v_text = {
+			ch_c_nyankatro_no_gacha = { "{C:attention}gacha{} units cannot appear." }
 		}
 	}
 }

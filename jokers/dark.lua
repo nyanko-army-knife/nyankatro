@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = 'dark_cat',
 	config = { extra = { h_size = 1 } },
 	rarity = 1,
+	pools = { nyankatro_gacha = false, nyankatro_basic = true },
 	nyanko_rarity = NYANKO_RARITY.BASIC,
 	atlas = 'Nyanko',
 	pos = { x = 0, y = 2 },

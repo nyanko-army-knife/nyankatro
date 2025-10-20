@@ -2,6 +2,7 @@ SMODS.Joker {
 	key = "lumina",
 	rarity = 4,
 	nyanko_rarity = NYANKO_RARITY.LEGEND_RARE,
+	pools = { nyankatro_gacha = true, nyankatro_gacha_legend_rare = true },
 	atlas = 'Nyanko',
 	config = { extra = { odds = 4, scale = 0.5 } },
 	pos = { x = 2, y = 9 },
